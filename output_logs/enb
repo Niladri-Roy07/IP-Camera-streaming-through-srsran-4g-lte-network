@@ -1,0 +1,35 @@
+r-309@r309-ThinkCentre-neo-50s-Gen-3:~/srsRAN_4G/build$ sudo ./srsenb/src/srsenb ~/.config/srsran/enb.conf
+---  Software Radio Systems LTE eNodeB  ---
+ 
+Reading configuration file /home/r-309/.config/srsran/enb.conf...
+ 
+Built in Release mode using commit 5275f3336 on branch HEAD.
+ 
+/home/r-309/srsRAN_4G/srsenb/src/enb_cfg_parser.cc:1216: Force DL EARFCN for cell PCI=1 to 2850
+Opening 1 channels in RF device=uhd with args=type=b200
+Available RF device list: UHD  zmq 
+[INFO] [UHD] linux; GNU C++ version 13.3.0; Boost_108300; UHD_4.8.0.HEAD-0-g308126a4
+[INFO] [LOGGING] Fastpath logging disabled at runtime.
+Opening USRP channels=1, args: type=b200,master_clock_rate=23.04e6
+[INFO] [UHD RF] RF UHD Generic instance constructed
+[INFO] [B200] Detected Device: B210
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[INFO] [B200] Actually got clock rate 23.040000 MHz.
+ 
+==== eNodeB started ===
+Type <t> to view trace
+Setting frequency: DL=2630.0 Mhz, UL=2510.0 MHz for cc_idx=0 nof_prb=50
+RACH:  tti=3541, cc=0, preamble=27, offset=3, temp_crnti=0x46
+User 0x46 connected
+Disconnecting rnti=0x46.
+ 
+ 
+ 
+ 
