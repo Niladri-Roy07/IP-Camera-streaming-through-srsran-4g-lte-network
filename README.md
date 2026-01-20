@@ -272,7 +272,7 @@ sudo netstat -tulpn | grep -E "2152|36412"
 
 # Adjust gains
 tx_gain = 60  # in config files
-rx_gain = 30
+rx_gain = 40
 ```
 
 ## 📊 Performance Metrics
