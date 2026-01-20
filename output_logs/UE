@@ -1,0 +1,39 @@
+r-309@r309-ThinkCentre-neo-50s-Gen-3:~/srsRAN_4G/build$ sudo ./srsue/src/srsue ~/.config/srsran/ue.conf
+Active RF plugins: libsrsran_rf_uhd.so libsrsran_rf_zmq.so
+Inactive RF plugins: 
+Reading configuration file /home/r-309/.config/srsran/ue.conf...
+ 
+Built in RelWithDebInfo mode using commit 1fab3df86 on branch master.
+ 
+Opening 1 channels in RF device=uhd with args=type=b200,master_clock_rate=23.04e6
+Supported RF device list: UHD zmq file
+[INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.8.0.HEAD-0-g308126a4
+Opening USRP channels=1, args: type=b200,master_clock_rate=23.04e6
+[INFO] [LOGGING] Fastpath logging disabled at runtime.
+[INFO] [UHD RF] RF UHD Generic instance constructed
+[INFO] [B200] Detected Device: B210
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[INFO] [B200] Actually got clock rate 23.040000 MHz.
+Waiting PHY to initialize ... done!
+Attaching UE...
+.
+Found Cell:  Mode=FDD, PCI=1, PRB=50, Ports=1, CP=Normal, CFO=0.7 KHz
+Found PLMN:  Id=00101, TAC=7
+Random Access Transmission: seq=27, tti=3541, ra-rnti=0x2
+RRC Connected
+Random Access Complete.     c-rnti=0x46, ta=3
+Network attach successful. IP: 172.16.0.2
+Software Radio Systems RAN (srsRAN) 8/1/2026 9:40:49 TZ:0
+Received RRC Connection Release (releaseCause: other)
+RRC IDLE
+ 
+ 
+ 
+ 
