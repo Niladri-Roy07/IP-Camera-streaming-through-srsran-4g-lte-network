@@ -1,0 +1,76 @@
+r-309@r309-ThinkCentre-neo-50s-Gen-3:~/srsRAN_4G/build$ sudo ./srsepc/src/srsepc ~/.config/srsran/epc.conf
+ 
+Built in Release mode using commit 5275f3336 on branch HEAD.
+ 
+ 
+---  Software Radio Systems EPC  ---
+ 
+Reading configuration file /home/r-309/.config/srsran/epc.conf...
+HSS Initialized.
+MME S11 Initialized
+MME GTP-C Initialized
+MME Initialized. MCC: 0xf001, MNC: 0xff01
+SPGW GTP-U Initialized.
+SPGW S11 Initialized.
+SP-GW Initialized.
+Received S1 Setup Request.
+S1 Setup Request - eNB Name: srsenb01, eNB id: 0x19b
+S1 Setup Request - MCC:001, MNC:01
+S1 Setup Request - TAC 7, B-PLMN 0xf110
+S1 Setup Request - Paging DRX v128
+Sending S1 Setup Response
+Initial UE message: LIBLTE_MME_MSG_TYPE_ATTACH_REQUEST
+Received Initial UE message -- Attach Request
+Attach request -- M-TMSI: 0xb7a0a4e9
+Attach request -- eNB-UE S1AP Id: 1
+Attach request -- Attach type: 1
+Attach Request -- UE Network Capabilities EEA: 11110000
+Attach Request -- UE Network Capabilities EIA: 01110000
+Attach Request -- MS Network Capabilities Present: false
+PDN Connectivity Request -- EPS Bearer Identity requested: 0
+PDN Connectivity Request -- Procedure Transaction Id: 1
+PDN Connectivity Request -- ESM Information Transfer requested: true
+UL NAS: Received Identity Response
+ID Response -- IMSI: 001010123456789
+Downlink NAS: Sent Authentication Request
+UL NAS: Received Authentication Response
+Authentication Response -- IMSI 001010123456789
+UE Authentication Accepted.
+Generating KeNB with UL NAS COUNT: 0
+Downlink NAS: Sending NAS Security Mode Command.
+UL NAS: Received Security Mode Complete
+Security Mode Command Complete -- IMSI: 001010123456789
+Sending ESM information request
+UL NAS: Received ESM Information Response
+ESM Info: APN srsapn
+Getting subscription information -- QCI 7
+Sending Create Session Request.
+Creating Session Response -- IMSI: 1010123456789
+Creating Session Response -- MME control TEID: 1
+Received GTP-C PDU. Message type: GTPC_MSG_TYPE_CREATE_SESSION_REQUEST
+SPGW: Allocated Ctrl TEID 1
+SPGW: Allocated User TEID 1
+SPGW: Allocate UE IP 172.16.0.2
+Received Create Session Response
+Create Session Response -- SPGW control TEID 1
+Create Session Response -- SPGW S1-U Address: 127.0.0.1
+SPGW Allocated IP 172.16.0.2 to IMSI 001010123456789
+Adding attach accept to Initial Context Setup Request
+Sent Initial Context Setup Request. E-RAB id 5 
+Received Initial Context Setup Response
+E-RAB Context Setup. E-RAB id 5
+E-RAB Context -- eNB TEID 0x1; eNB GTP-U Address 127.0.1.1
+UL NAS: Received Attach Complete
+Unpacked Attached Complete Message. IMSI 1010123456789
+Unpacked Activate Default EPS Bearer message. EPS Bearer id 5
+Received GTP-C PDU. Message type: GTPC_MSG_TYPE_MODIFY_BEARER_REQUEST
+Sending EMM Information
+Received UE Context Release Request. MME-UE S1AP Id 1
+There are active E-RABs, send release access bearers request
+Received GTP-C PDU. Message type: GTPC_MSG_TYPE_RELEASE_ACCESS_BEARERS_REQUEST
+Received UE Context Release Complete. MME-UE S1AP Id 1
+UE Context Release Completed.
+ 
+ 
+ 
+ 
